@@ -5,5 +5,5 @@ import pymongo
 
 def list_all(mongo_collection):
         """ Lists all documents in a collection """
-            cursor = mongo_collection.find({})
-                return cursor
+        cursor = mongo_collection.find({})
+        return cursor
